@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Frag2AddItem">
+
+
+        <EditText
+            android:id="@+id/Et_add_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="돈 쓴 사람" />
+
+        <EditText
+            android:id="@+id/Et_add_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="추가 설명" />
+        <Spinner
+            android:id="@+id/SP_Kind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/Et_add_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="금액(원)" />
+
+
+        <Button
+            android:id="@+id/bt_logListItemSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="추가" />
+</LinearLayout>
